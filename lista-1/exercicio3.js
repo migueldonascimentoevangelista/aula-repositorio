@@ -1,6 +1,6 @@
-let input = repuire('readline-sync')
-var n1 = input.questionInt("Digite o número 1: ")
-let n2 = input.questionInt("Digite o número 2: ") 
+let input = require('readline-sync');
+var n1 = input.questionInt("Digite o número 1: ");
+let n2 = input.questionInt("Digite o número 2: ");
 
 n1=n1+2
 n2=n1+2
