@@ -1,6 +1,5 @@
-let input = require('readline-sync');
+let input = repuire('readline-sync')
+let n1 = input.questionInt("digite um numero: ")
 
-let n1 = parseInt(input.question("Digite um numero: "));
-
-console.log( + n1*10);
-
+n1 = n1+5
+console.log("resposta=", n1)
